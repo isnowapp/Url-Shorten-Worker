@@ -199,7 +199,7 @@ async function handleRequest(request) {
   console.log(path)
   // 如果path为空, 即直接访问网址
   if (!path) {
-    return Response.redirect("https://zelikk.blogspot.com/search/label/Url-Shorten-Worker", 302)
+    return Response.redirect("https://isnow.app", 302)
     /* new Response(html404, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
